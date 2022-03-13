@@ -4117,10 +4117,29 @@ loopback-connector@^4.4.0, loopback-connector@^4.8.0:
     strong-globalize "^4.1.1"
     uuid "^3.0.1"
 
-loopback-datasource-juggler@^3.0.0, loopback-datasource-juggler@^3.16.0, loopback-datasource-juggler@^3.28.0:
+loopback-datasource-juggler@^3.0.0, loopback-datasource-juggler@^3.28.0:
   version "3.33.0"
   resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-3.33.0.tgz#3529093ed8cfe284d413502ce5c8cfea33a57f80"
   integrity sha512-eVWw4KjE1/xxVaHRYfX/B+Drjt2vpTDO3D8Rm6MpJQ2PCcI/nM0a9v+leYXLbfg236ckJV9OUPfDTc7uuuhNUg==
+  dependencies:
+    async "^2.6.0"
+    bluebird "^3.1.1"
+    debug "^3.1.0"
+    depd "^1.0.0"
+    inflection "^1.6.0"
+    lodash "^4.17.4"
+    loopback-connector "^4.4.0"
+    minimatch "^3.0.3"
+    qs "^6.5.0"
+    shortid "^2.2.6"
+    strong-globalize "^4.1.1"
+    traverse "^0.6.6"
+    uuid "^3.0.1"
+
+loopback-datasource-juggler@^3.36.1:
+  version "3.36.1"
+  resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-3.36.1.tgz#bb94c95c4efbc07ef8caf66f2b75ca6422520f5d"
+  integrity sha512-6eop3qxFyN3AkPBPUte2DHcsW1DopJwXXA20x3vwYsBSo4hLSv4gIeXo0+yqdQoXpHfbKRB9cv1hHEHAQSiWUA==
   dependencies:
     async "^2.6.0"
     bluebird "^3.1.1"
